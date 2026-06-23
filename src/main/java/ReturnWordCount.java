@@ -7,8 +7,8 @@ public class ReturnWordCount {
     public int count(String in){
         int size = in.length();
         char a = ' ';
-        int countWords = 0;
-        for(int i =0; i<size-1; i++){
+        int countWords = 1;
+        for(int i =0; i<size; i++){
             if (in.charAt(i) == a) {
                 countWords+=1;
             }
