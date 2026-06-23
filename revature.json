@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/WordCountTest.java",
+      "testCases": [
+        {
+          "methodName": "wordCountTest1",
+          "label": "Counts four words in a simple sentence",
+          "description": "Verifies that the method returns 4 for the sentence 'apple banana pear melon'."
+        },
+        {
+          "methodName": "wordCountTest2",
+          "label": "Counts seven words in a longer sentence",
+          "description": "Checks that the method correctly counts 7 words in the sentence containing multiple animal names."
+        },
+        {
+          "methodName": "wordCountTest3",
+          "label": "Counts three words in a sentence",
+          "description": "Ensures the method returns 3 for the sentence 'alpha bravo charlie'."
+        }
+      ]
+    }
+  ]
+}
